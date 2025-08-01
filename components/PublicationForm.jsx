@@ -34,7 +34,7 @@ export default function PublicationForm({ onSubmit, initialData = {} }) {
                 url: initialData.url || "",
             });
         }
-    }, []);
+    }, [initialData.title, initialData.doi, initialData.url]);
 
     // Save form to localStorage on every change
     useEffect(() => {
