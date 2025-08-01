@@ -4,7 +4,7 @@ import bcrypt from "bcrypt";
 
 export async function POST(req) {
     try {
-         await connectToDatabase();
+        await connectToDatabase();
 
         const { username, password } = await req.json(); 
         
