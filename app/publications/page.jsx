@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Header from '@/components/Header'
 import React from 'react'
 
-export default function publications() {
+export default function Publications() {
 
   const [publications, setPublications] = useState([]);
 

@@ -4,7 +4,7 @@ import AdminHeader from '@/components/AdminHeader'
 import React, { useState } from 'react'
 import { toast } from 'react-toastify';
 
-export default function page() {
+export default function Page() {
 
     const [formData, setFormData] = useState({
         username: '',

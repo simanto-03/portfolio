@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import React, { useEffect, useState } from 'react'
 import { toast } from 'react-toastify';
 
-export default function contact() {
+export default function Contact() {
 
   const [phones, setPhones] = useState(['']);
   const [emails, setEmails] = useState(['']);

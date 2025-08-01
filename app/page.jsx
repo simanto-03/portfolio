@@ -53,7 +53,7 @@ export default function Home() {
               <div className=" text-center xl:text-left text-bgDark dark:text-bgLight order-2 xl:order-none">
                 <span>Mechanical Engineer</span>
                 <h1 className="h1 mb-6">
-                  Hello I'm <br />{" "}
+                  Hello I&apos;m <br />{" "}
                   <span className=" text-fGreen/85">Simanto Das</span>
                 </h1>
                 <p className=" max-w-[500px] mb-9 text-bgDark/80 dark:text-bgLight/80">

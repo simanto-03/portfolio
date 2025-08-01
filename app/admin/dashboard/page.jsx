@@ -7,7 +7,7 @@ import { useSession } from "next-auth/react";
 import Link from 'next/link';
 
 
-export default function page() {
+export default function Page() {
 
     const { data: session } = useSession();
     

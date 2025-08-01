@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react'
 import Intro from "@/components/EditProfile/Intro";
 import AboutEdit from "@/components/EditProfile/AboutEdit";
 
-export default function page() {
+export default function Page() {
 
     const [userInfo, setUserInfo] = useState(null);
     const [isLoading, setIsLoading] = useState(true);

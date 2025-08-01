@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import { JetBrains_Mono, JetBrains_Mono } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
@@ -11,10 +11,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const jetBrainsMono = JetBrains_Mono({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
-  variable: "--font-jetbrainsMono",
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-jetbrains',
 });
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

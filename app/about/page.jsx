@@ -4,6 +4,8 @@ import Image from "next/image";
 import Education from "@/components/Education";
 import Header from "@/components/Header";
 import { toast } from "react-toastify";
+
+
 export default function About() {
 
   const [type, setType] = useState(1);
