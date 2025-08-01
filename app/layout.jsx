@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
-import {JetBrains_Mono, JetBrains_Mono} from "next/font/google";
+import { JetBrains_Mono, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import PageTransition from "@/components/pagetransition";
+import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 import { ToastContainer } from "react-toastify";
 import { Bounce } from "react-toastify";
@@ -10,10 +10,10 @@ import { AuthProvider } from "./Provider";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const jetBrainsMono = JetBrains_Mono({ 
-  subsets: ["latin"], 
+const jetBrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
-  variable: "--font-jetbrainsMono"
+  variable: "--font-jetbrainsMono",
 });
 
 const geistSans = localFont({
